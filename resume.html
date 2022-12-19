@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Darryl Cheong
+        </title>
+        
+        <style>
+            h1 {margin: 40px 0 0 0;
+                font-family: Georgia;
+                font-size: 50px;
+            }
+
+            h2 {margin: 20px 0 5px 20px;
+                font-family: Georgia;
+                font-size: 25px;
+            }
+
+            h4 {margin: 20px 0 5px 0;
+                font-family: Georgia;
+                font-size: 18;
+            }
+
+            p {margin: 0 0 0 20px;
+                font-family: Georgia;
+                font-size: 18px;
+            }
+
+            li {font-family: Georgia;
+                font-size: 18px;    
+            }
+
+            a:link {color: darkblue;
+                background-color: transparent;
+                text-decoration: none;
+            }
+
+            a:visited {color:purple;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+
+            a:hover {color:teal;
+                background-color: transparent;
+                text-decoration: none;
+            }
+
+            a:active {color:red;
+                background-color: none;
+                text-decoration: underline;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <!-- Profile Pic, Name, Mobile, Email -->
+        <p>
+            <img id="5" src="profile.jpeg" alt="My Profile Picture" style="padding: 10px 0 10px 0;">
+            <br>
+            <strong>Name:</strong> Darryl Cheong Jin Wei | <strong>Email:</strong> darrylcheong.jw@gmail.com
+        </p>
+        
+        <hr>
+        
+        <p style="margin: 20px 0 20px 20px"><strong>Quick Link:</strong>
+            <a href="#1">Education</a> | 
+            <a href="#2">Work Experience</a> | 
+            <a href="#3">Projects</a> | 
+            <a href="#4">Additional Information</a>
+        </p>
+
+        <hr>
+
+        <!-- Education Title-->
+        <h1 id="1">Education</h1>
+        
+        <!-- NTU -->
+        <h2>
+            Nanyang Technological University, Singapore
+            <br>
+            Bachelor of Engineering, Bioengineering
+        </h2>
+
+        <p style>
+            Honour (Distinction), CGPA: 4.32
+        </p>
+        
+        <!-- IT Courses -->
+        <h2>
+            IT Certificates/Courses
+        </h2>
+
+        <p>
+            Introduction to Data Science in Python - <i>University of Michigan</i>
+            <br>
+            Machine Learning A-Z<sup>TM</sup> Hands-On Python & R in Data Science - <i>Udemy</i>
+        </p>
+
+        <br>
+
+        <!-- Digital Skills -->
+        <h2>
+            Digital Skills
+        </h2>
+
+        <p>
+            Python, SQL, HTML, JavaScript, CSS, Microsoft Office
+        </p>
+
+        <hr>
+
+        <!-- Work Experience -->
+        <h1 id="2">Work Experience</h1>
+
+        <!-- SGH -->
+        <h2>
+            Singapore General Hospital, Data Science Analyst: <u>Jun 2022 - Present</u>
+        </h2>
+        
+        <ul>
+            <li>
+                Collaborated with the clinical teams and managed the entire lifecycle of the deep learning/machine learning projects.
+            </li>
+
+            <li>
+                Performed data extraction, annotation, analysis and model development.
+            </li>
+
+            <li>
+                Integrate and deploy the developed deep learning/machine learning models through cooperation with external parties.
+            </li>
+
+            <li>
+                Aligned projects outcome with stakeholder's expectations through regular updates.
+            </li>
+        </ul>
+
+        <!-- Edwards Lifesciences -->
+        <h2>
+            Edwards Lifesciences, Critical Control Point & Quality Engineering Intern: <u>Jan 2021 - May 2021</u>
+        </h2>
+
+        <ul>
+            <li>
+                Executed feasibility studies on process characterization through data collections & trend analysis for processing monitoring.
+            </li>
+
+            <li>
+                Developed python script by integrating different data manipulation libraries (e.g. Pandas, NumPy) that improve data collection 
+                and processing by 50%.
+            </li>
+
+            <li>
+                Created an Excel Macro File by conceptualizing the necessary routine workflow needed to extract and plots specialized data for 
+                rapid data monitoring.
+            </li>
+        </ul>
+
+        <hr>
+
+        <!-- Projects Title -->
+        <h1 id="3">Projects</h1>
+
+        <!-- Resume -->
+        <h2>
+            Web-Based Resume
+            <br>
+            Self-Directed Project: <u>Dec 2022</u>
+        </h2>
+        
+        <ul>
+            <li>
+                Developed a resume using HTML and CSS.
+            </li>
+
+            <li>
+                Deployed resume onto the web with a DNS.
+            </li>
+        </ul>
+
+        <!-- mSASSS Score -->
+        <h2>
+            Modified Stoke Ankylosing Spondylitis Spinal (mSASSS) Score Prediction
+            <br>
+            Singapore General Hospital, Singapore: <u>Nov 2022</u>
+        </h2>
+
+        <ul>
+            <li>
+                Developed a two stage model automate the mSASSS scoring for spine fusion rate. 
+            </li>
+
+            <li>
+                The first stage consists of a modified HRNet model to predict the location of target vertebral bodies through keypoints detection technique.
+            </li>         
+
+            <li>
+                The predicted keypoints are also used to orientate a region of the image for standardized classification.
+            </li>
+            
+            <li>
+                The second stage consists of a ResNet model to classify a region of the image for mSASSS scoring.
+            </li>
+
+            <li>
+                The modified HRNet model achieve a accuracy of 95% based on a 2% threshold of pixel-wise distance error from ground truth points. 
+            </li>
+        </ul>
+
+        <!-- FYP -->
+        <h2>
+            Photoacoustic Image Reconstruction using Convolutional Neural Network (CNN)
+            <br>
+            Nanyang Technological University, Singapore: <u>Apr 2021</u>
+        </h2>
+
+        <ul>
+            <li>
+                Collaborated with mentor to reconstruct sinogram signals into images with CNN model using PyTorch to increase efficiency by bypassing Radon transformation process.
+            </li>
+
+            <li>
+                Generated synthetic phantom images for training the CNN model using MATLAB.
+            </li>
+        </ul>
+
+        <!-- BIE Project -->
+        <h2>
+            Development of Electronic Home Uroflowmetry with Integrated Smartphone App
+            <br>
+            Nanyang Technological University, Singapore: <u>Apr 2021</u>
+        </h2>
+        
+        <ul>
+            <li>
+                Managed the role delegations and spearheaded project discussions within the team.
+            </li>
+
+            <li>
+                Collaborate with the hardware team to design the specification and mechanism of the medical device.
+            </li>
+
+            <li>
+                Developed and integrated the data management and display on smartphone application.
+            </li>
+        </ul>
+
+        <hr>
+
+        <!-- Additional Info -->
+        <h1 id="4">Additional Information</h1>
+        
+        <!-- Language -->
+        <h2>
+            Language
+        </h2>
+
+        <ul>
+            <li>
+                English
+            </li>
+
+            <li>
+                Chinese
+            </li>
+        </ul>
+
+        <!-- Interest -->
+        <h2>
+            Interest
+        </h2>
+
+        <ul>
+            <li>
+                Photography
+            </li>
+
+            <li>
+                Traveling
+            </li>
+        </ul>
+
+        <br>
+
+        <p><a href="#5">Return to Top</a></p>
+
+    </body>
+
+</html>
